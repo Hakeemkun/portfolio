@@ -1,0 +1,208 @@
+/*this is the header*/
+header{
+    color: aliceblue;
+    width: 100%;
+    height: 90vh;
+    background-color: #1F2937;
+    background-position: center;
+    background-size: contain;
+    background-image: url("media/happy.png") ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+/*the navbar*/
+.navbar {
+    font-size: large;
+    display: flex;
+    justify-content: end;
+    gap:25px;
+    padding: 18px 220px;
+}
+
+.logo {
+    flex-shrink: 0;
+    font-size: 35px;
+    font-weight: 800;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+/*the hero content*/
+.herocontent {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 18px 220px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+
+}
+
+.header {
+    font-size: 48px;
+    font-weight:600;
+}
+
+.header2 {
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3882F7;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px aliceblue;
+}
+
+
+/*this is the body*/
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+/*the services header*/
+.head {
+    padding: 50px 220px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+/*the services list*/
+ul {
+    padding: 50px 220px;
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+li {
+   
+
+    display: flex;
+    flex-direction: column;
+}
+
+ul img {
+    padding :25px;
+    width: 130px;
+    border: solid 4px #3882F7;
+    border-radius: 17px;
+}
+
+ul div {
+    width: 130px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*the quote*/
+
+.quote {
+    background: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+    
+
+.quote p {
+    padding: 20px 350px;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signature {
+    padding: 16px 350px;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: end;
+}
+
+/*the notification*/
+
+.container {
+    height: 320px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti {
+    height: 200px;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882F7;
+    border-radius: 20px;
+    border:solid 1px #3882F7;
+}
+.txt {
+    height:180px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+.header3 {
+    font-size: 25px;
+    font-weight: 550;
+}
+.noti p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.noti button {
+    flex-shrink: 0;
+
+}
+/*footer*/
+footer {
+    background: #1F2937;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy {
+    color: aliceblue;
+    font-size: large;
+    font-weight: 500;
+}
+
